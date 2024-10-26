@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--text-color-secondary);
-  background-color: var(--background-color);
 }
 
 :root {
@@ -26,4 +25,30 @@
 
   --text-color-primary: #313131;
   --text-color-secondary: #6c6c6c;
+}
+
+body {
+  font: var(--text);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
