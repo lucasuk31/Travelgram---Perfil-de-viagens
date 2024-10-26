@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 24px;
+  font: var(--text-sm);
+}
+
+footer #legislacao {
+  display: flex;
+  gap: 24px;
+}
