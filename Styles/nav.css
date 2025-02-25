@@ -5,7 +5,7 @@ nav {
   padding: var(--padding-sm);
 
   & img:last-child {
-    width: 2.5rem;
+    max-width: 2.5rem;
   }
 }
 
