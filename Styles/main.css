@@ -1,12 +1,25 @@
 main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding-block: 24px;
+  padding: var(--padding-sm);
+  display: grid;
+  gap: 1rem;
 }
 
 main img {
-  width: 286px;
-  height: 286px;
+  max-width: 21.5rem;
+  max-height: 21.5rem;
   object-fit: cover;
+}
+
+@media (width >=80em) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+  }
+
+  main img {
+    max-width: 18.35rem;
+    max-height: 18.35rem;
+  }
 }
