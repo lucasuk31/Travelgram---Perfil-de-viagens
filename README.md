@@ -7,7 +7,7 @@ Projeto exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologi
 <br>
 
 <p align="center">
-  <img alt="projeto Travelgram - Perfil de Viagens" src="./Assets/Thumbnail.png" width="100%">
+  <img alt="projeto Travelgram - Perfil de Viagens" src="./Assets/Thumbnail-responsive.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
