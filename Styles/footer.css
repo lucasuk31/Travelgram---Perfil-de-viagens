@@ -1,11 +1,22 @@
 footer {
-  display: flex;
-  justify-content: space-between;
-  padding-block: 24px;
-  font: var(--text-sm);
+  font: var(--text-md);
+  text-align: center;
+  padding: 1rem;
+
+  & div:nth-child(2) {
+    margin-top: 1rem;
+  }
 }
 
-footer #legislacao {
-  display: flex;
-  gap: 24px;
+@media (width >= 80em) {
+  footer {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    & div:nth-child(2) {
+      margin-top: 0;
+    }
+  }
 }
