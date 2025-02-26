@@ -1,7 +1,7 @@
 header {
   padding: var(--padding-lg);
   display: grid;
-  & main {
+  & .first-info {
     padding: 0;
 
     & img {
@@ -20,7 +20,7 @@ header {
     }
   }
 
-  & section {
+  & .second-info {
     margin-top: 2rem;
 
     & ul {
@@ -41,7 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
 
-    & main {
+    & .first-info {
       display: grid;
       grid-template-columns: 1fr 100%;
       gap: 2rem;
@@ -56,7 +56,7 @@ header {
       }
     }
 
-    & section {
+    & .second-info {
       width: 17.5rem;
     }
   }
